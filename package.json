@@ -21,6 +21,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix src && npm run build --prefix src"
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
