@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node src/index.js",
-    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix src && npm run build --prefix src"
+    "start": "",
+    "build": ""
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
